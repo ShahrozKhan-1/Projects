@@ -1,0 +1,10 @@
+*{
+    background-color: #000;
+}
+.main-logo{
+    width: 400px;
+}
+.check{
+    border: 1px solid #BE262E;
+    width: 90%;
+}
