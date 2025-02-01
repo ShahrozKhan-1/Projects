@@ -1,0 +1,413 @@
+.dm-sans-uniquifier {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h3{
+  font-size: 42px;
+}
+
+h5{
+  font-size: 22px;
+}
+
+p{
+  font-size: 16px;
+}
+
+h1{
+  font-size: 72px;
+  font-weight: 700px;
+}
+
+h2{
+  font-size: 58px;
+}
+
+.landingpage {
+  background-image: url("./images/bg-1.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2f1893;
+  z-index: 2;
+}
+
+nav {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.landingpage .carousel-caption h5 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.landingpage .carousel .carousel-indicators button {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  font-size: 12px;
+}
+
+.landingpage .carousel-caption p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.landingpage .btn {
+  background: #482be7;
+  width: 230px;
+  height: 60px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 60px;
+}
+
+.landingpage .carousel-item {
+  height: 500px;
+}
+
+.content {
+  background-image: url("./images/bg-2.png");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2f1893;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.content h2 {
+  width: 60%;
+}
+
+.content .article {
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  width: 75%;
+}
+
+.features {
+  background-image: url("./images/bg-3.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2f1893;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading-third-title {
+  font-size: 42px;
+}
+
+.heading-five-lead {
+  font-size: 22px;
+}
+
+.text-label {
+  font-size: 14px;
+}
+
+.fontawesome {
+  font-family: FontAwesome;
+  font-size: 37.6px;
+  line-height: 43.24px;
+  text-align: left;
+}
+
+.text-paragraph {
+  font-size: 16px;
+}
+
+.features .carousel-indicators {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 700px;
+  bottom: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.features .carousel .carousel-indicators button {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.features .carousel-indicators button.active {
+  background-color: white; 
+}
+
+.forms{
+  background-image: url("./images/bg-2.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2f1893;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forms .box-1{
+  width: 369px;
+  height: 318px;
+}
+
+.forms .box-2{
+  width: 470px;
+  height: 550px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.acc-btn{
+  background-color: #25DAC5;
+  width: 330px;
+  height: 50px;
+  border-radius: 100px;
+  border: 0;
+}
+
+.twitter-btn{
+  background-color: #1DA1F2;
+  width: 330px;
+  height: 50px;
+  border-radius: 100px;
+  border: 0;
+}
+
+.signup-form{
+  width: 330px;
+  height: 50px;
+  border-radius: 100px;
+  border: 1px solid black;
+  margin: 15px 0px 15px 0px;
+}
+
+.button-hover:hover{
+  border-bottom: 2px solid #1E0E62;
+  color: #1E0E62;
+  font-weight: 700;
+}
+
+.active-button {
+  border-bottom: 2px solid #1E0E62;
+  color: #1E0E62;
+  font-weight: 700;
+}
+
+.testimonial{
+  background-color: #1E0E62;
+  height: 100vh;
+  padding: 50px 100px 50px 100px;
+}
+
+.client{
+  width: 470px;
+  height: 237px;
+  border: 1px solid rgb(197, 196, 196);
+  border-radius: 20px;
+}
+
+.client .article{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.client .name{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+.call-to-action{
+  background-image: url("./images/bg-4.png");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2f1893;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action i{
+  font-size: 20px;
+}
+
+.call-to-action button{
+  background-color: #25DAC5;
+  width: 213px;
+  height: 70px;
+  border-radius: 100px;
+}
+
+.round-play{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #EA3223;
+}
+
+
+.showcase{
+  background-color: #2F1893;
+  padding: 100px 100px 50px 100px;
+}
+
+.showcase img{
+border-radius: 10px;
+}
+
+.showcase p{
+font-size: 14px;
+}
+
+
+.team{
+  background-color: #2F1893;
+  padding: 100px 100px 50px 100px;
+}
+
+.team-layout{
+  width: 58%;
+}
+
+.team img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.team .row{
+  margin-top: 80px;
+}
+
+.team-member{
+  width: 170px;
+  height: 241.2px;
+}
+
+
+.contact{
+  background-image: url("./images/bg-5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2f1893;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+}
+
+.contact .box-1{
+  width: 410px;
+}
+
+.contact .box-2{
+  width: 470px;
+  height: 570px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contact label{
+font-size: 14px;
+line-height: 26px;
+letter-spacing: 2px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-weight: 700;
+}
+
+.contact button{
+  background-color: #25DAC5;
+  border: 0;
+}
+
+.form-height{
+  padding: 15px;
+}
+
+
+.pricing{
+  background-image: url("./images/bg-6.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2F1893;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .navbar li {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  nav {
+    margin-top: 70px;
+  }
+}
