@@ -23,18 +23,18 @@ function Pizza() {
   }, []);
 
   const addCart = (item) => {
-    setCart((prevCart) => {
-      // Check if item is already in the cart
-      if (prevCart.some(cartItem => cartItem.id === item.id)) {
-        alert("This item is already in the cart!");
-        return prevCart; // Don't add duplicate items
-      }
-
-      const updatedCart = [...prevCart, item];
-      localStorage.setItem("cart", JSON.stringify(updatedCart)); // Save to localStorage
-      return updatedCart;
-    });
+    const storedCart = JSON.parse(localStorage.getItem("cart")) || []; // Load from localStorage
+  
+    if (storedCart.some(cartItem => cartItem.id === item.id)) {
+      alert("This item is already in the cart!");
+      return; 
+    }
+  
+    const updatedCart = [...storedCart, item]; // Add new item
+    localStorage.setItem("cart", JSON.stringify(updatedCart)); // Save to localStorage
+    setCart(updatedCart); // Update state
   };
+  
   
   return (
     <Container className='text-light'  id='pizza'>

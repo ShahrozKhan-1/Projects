@@ -9,31 +9,24 @@ import "./pages.css"
 import axios from "axios"
 
 function Cart() {
+
   const [cart, setCart] = useState([]);
   const [customerName, setCustomerName] = useState("");
   const [address, setAddress] = useState("");
   const navigate = useNavigate();
 
-  // Load cart from localStorage when component mounts
   useEffect(() => {
     const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
     setCart(storedCart);
   }, []);
 
-  // Remove an item from cart
   const removeFromCart = (id) => {
     const newCart = cart.filter((item) => item.id !== id);
-
-    // Update the state
     setCart(newCart);
-
-    // Save the updated cart in localStorage
     localStorage.setItem("cart", JSON.stringify(newCart));
   };
 
-  // Calculate total price
   const totalPrice = cart.reduce((total, item) => total + item.price, 0);
-
   const placeOrder = () => {
     if (!customerName || !address) {
       alert("Please enter your name and address.");
@@ -53,9 +46,9 @@ function Cart() {
       .post("http://127.0.0.1:8000/place_order/", orderData)
       .then((response) => {
         alert("Order placed successfully!");
-        localStorage.removeItem("cart"); // Clear cart
-        setCart([]); // Reset state
-        setCustomerName(""); // Clear input fields
+        localStorage.removeItem("cart");
+        setCart([]);
+        setCustomerName("");
         setAddress("");
       })
       .catch((error) => {

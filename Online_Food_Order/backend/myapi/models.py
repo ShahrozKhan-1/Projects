@@ -6,7 +6,8 @@ class Product(models.Model):
     CATEGORY_CHOICES = [
         ('burger', 'Burger'),
         ('pizza', 'Pizza'),
-        ('sandwiches', 'Sandwiches')
+        ('sandwiches', 'Sandwiches'),
+        ('shawarmas', 'Shawarmas'),
     ]
     
     name = models.CharField(max_length=255)

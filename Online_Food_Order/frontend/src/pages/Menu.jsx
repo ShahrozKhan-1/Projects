@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar/Page_Navbar'
 import Burger from './Burger'
 import Pizza from './Pizza'
 import Sandwich from './Sandwich'
+import Shawarmas from './shawarmas'
 
 function Menu() {
   return (
@@ -23,6 +24,9 @@ function Menu() {
         </Row>
         <Row>
           <Sandwich />
+        </Row>
+        <Row>
+          <Shawarmas />
         </Row>
     </Container>
   )

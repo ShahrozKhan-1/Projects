@@ -18,8 +18,8 @@ function Page_Navbar() {
           <Nav className="mx-auto">
             <Link to="burger" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Burgers</Link>
             <Link to="pizza" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Pizzas</Link>
-            <Link to="sandwich" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Sandwiches</Link>
-            <Link to="shawarma" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Shawarmas</Link>
+            <Link to="sandwiches" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Sandwiches</Link>
+            <Link to="shawarmas" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Shawarmas</Link>
             <Link to="chinese" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Chinese</Link>
             <Link to="shakes&juices" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Shakes and Juices</Link>
             <Link to="icecream" smooth={true} duration={500} className="mx-4 text-decoration-none font-color">Ice Cream</Link>
